@@ -1,0 +1,43 @@
+name: Publier sur LinkedIn
+
+# Mardi et jeudi, 8 h 10 heure de Paris (7 h 10 UTC, tout le calendrier est en
+# heure d'hiver). La seconde exécution rattrape celle que GitHub aurait sautée :
+# publier.mjs ne republie jamais un post déjà parti.
+on:
+  schedule:
+    - cron: '10 7 * * 2,4'
+    - cron: '40 7 * * 2,4'
+  workflow_dispatch:
+    inputs:
+      essai:
+        description: 'Vérifier le jeton sans rien publier'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: linkedin
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node publier.mjs
+        env:
+          LINKEDIN_TOKEN: ${{ secrets.LINKEDIN_TOKEN }}
+          ESSAI: ${{ github.event_name == 'workflow_dispatch' && inputs.essai }}
+      - name: Garder la trace de ce qui est parti
+        if: always()
+        run: |
+          git config user.name "jarvis"
+          git config user.email "jarvis@users.noreply.github.com"
+          git add publies.json
+          git diff --cached --quiet || (git commit -m "Publication du $(TZ=Europe/Paris date +%F)" && git push)
