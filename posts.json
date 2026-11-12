@@ -78,14 +78,14 @@
   },
   {
     "n": 12,
-    "date": "2026-12-24",
+    "date": "2027-01-05",
     "titre": "Peppol (Belgique)",
     "texte": "Depuis le 1er janvier 2026, la facture électronique Peppol est obligatoire entre entreprises en Belgique.\n\nPour une boutique qui vend aussi en B2B, ça veut dire des factures structurées à émettre, et à recevoir.\nUn agent IA peut préparer, contrôler et rapprocher ces factures avec les commandes,\net vous signaler ce qui ne colle pas avant l'envoi.\n\nVos factures B2B passent-elles déjà par Peppol ?\n\n#Peppol #Belgique #facturation #ecommerce",
     "commentaire": "https://creation-site-pro.be/blog/factures-peppol-b2b-belgique-agent-ia"
   },
   {
     "n": 13,
-    "date": "2026-12-29",
+    "date": "2027-01-07",
     "titre": "Les tests",
     "texte": "Un agent IA qui répondait bien hier peut répondre mal demain.\nIl suffit d'un nouveau modèle, d'une règle modifiée, d'un document mis à jour.\n\nC'est pourquoi chaque agent que je construis aura son jeu de cas réels anonymisés,\nrejoués avant chaque changement.\nSi une réponse change, on le voit avant vos clients.\n\nEt chaque passage est tracé : ce qu'il a lu, ce qu'il a proposé, la règle citée, le modèle utilisé, le coût.\nQuand quelque chose cloche, on sait pourquoi.\n\nAujourd'hui, comment savez-vous que vos outils répondent toujours juste ?\n\n#IA #qualité #ecommerce",
     "commentaire": "https://creation-site-pro.fr/blog/tester-agent-ia-cas-reference-changement-modele"
