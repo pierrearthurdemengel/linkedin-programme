@@ -1,77 +1,77 @@
 [
   {
     "n": 1,
-    "date": "2026-11-17",
+    "date": "2026-11-13",
     "titre": "L'annonce",
     "texte": "J'ajoute une corde à mon arc.\n\nDepuis des années, je construis et je fais évoluer des boutiques en ligne, surtout sous Sylius.\nAujourd'hui, j'y intègre des agents IA.\n\nPas un chatbot de plus collé en bas à droite de la page.\nUn agent qui travaille dans votre boutique :\nil lit le message du client, retrouve sa commande, applique vos règles écrites, et vous prépare la réponse.\nVous relisez, vous validez, vous envoyez.\n\nCe qu'il ne fait jamais seul : rembourser, envoyer un mail, faire un geste commercial.\nCe n'est pas une consigne qu'on lui donne. Il n'a tout simplement pas l'outil pour le faire.\n\nJe construis chaque agent en 8 couches, de son cadre de travail jusqu'aux tests rejoués avant chaque changement.\nEt je pars de votre budget pour vous proposer ce qui y rentre, en commençant par la tâche qui vous fait perdre le plus de temps.\n\nSi vous voulez savoir ce qu'un agent pourrait prendre en charge chez vous, je vous offre un diagnostic.\n\nDans votre boutique, quelle tâche vous prend le plus de temps chaque semaine ?\n\n#ecommerce #IA #Sylius #agentIA",
     "commentaire": "Tout est expliqué ici : https://creation-site-pro.fr/agent-ia-e-commerce"
   },
   {
     "n": 2,
-    "date": "2026-11-19",
+    "date": "2026-11-17",
     "titre": "Le pic des fêtes",
     "texte": "Black Friday, puis Noël, puis les soldes.\n\nPour beaucoup de boutiques en ligne, c'est le même scénario :\nles ventes montent, et la boîte de contact déborde avec elles.\n« Où est mon colis ? » « Je peux échanger la taille ? » « Le code promo ne marche pas. »\n\nLes réponses sont presque toujours dans vos données : la commande, l'expédition, vos conditions de vente.\nCe qui manque, c'est le temps de les aller chercher, cinquante fois par jour.\n\nC'est précisément ce qu'un agent IA bien construit fait :\nil trie, retrouve le dossier, prépare la réponse avec la règle qui s'applique.\nVous gardez la main sur ce qui part.\n\nCe ne sera pas prêt pour ce Black Friday. Mais pour les soldes d'hiver, ou la prochaine saison, c'est le moment d'y penser.\n\nChez vous, quelle question revient le plus souvent pendant les fêtes ?\n\n#ecommerce #serviceclient #IA",
     "commentaire": "https://creation-site-pro.fr/blog/pic-soldes-noel-service-client-deborde"
   },
   {
     "n": 3,
-    "date": "2026-11-24",
+    "date": "2026-11-19",
     "titre": "Le GPT maison qui échoue",
     "texte": "Un commerçant avait monté lui-même son assistant de service client dans ChatGPT.\nBonne intuition. Mauvais résultat.\n\nTrois raisons.\nD'abord, il n'avait aucun accès aux données de la boutique. Il répondait sans connaître la commande.\nEnsuite, sa mémoire, c'était un tableur coloré.\nEnfin, il réécrivait lui-même ses propres règles au fil des conversations.\n\nL'agent que je construis pour le remplacer, encore en construction, fait l'inverse :\nil retrouve le client par le code, ne reçoit que ses données à lui, cite la règle qu'il applique,\net ses règles ne bougent que quand le commerçant les change.\n\nLa différence n'est pas le modèle d'IA. C'est tout ce qu'on construit autour.\n\nVous avez déjà essayé de faire répondre une IA à vos clients ?\n\n#IA #ecommerce #ChatGPT",
     "commentaire": "https://creation-site-pro.fr/blog/gpt-maison-service-client-limites"
   },
   {
     "n": 4,
-    "date": "2026-11-26",
+    "date": "2026-11-24",
     "titre": "Belgique, la fin d'année",
     "texte": "Commerçants belges : la fin d'année, c'est aussi le pic des messages clients.\nEn français, en néerlandais, souvent les deux dans la même journée.\n\nUn agent IA peut trier ces messages, retrouver la commande et préparer une réponse dans la langue du client,\nen appliquant vos règles de retour et de livraison.\nVous validez avant l'envoi.\n\nJ'interviens à Bruxelles et en Wallonie, et je pars de votre budget pour vous proposer ce qui y rentre.\n\nDans votre boutique, quelle part de vos messages arrive en néerlandais ?\n\n#ecommerce #Belgique #IA",
     "commentaire": "https://creation-site-pro.be/blog/pic-fin-annee-service-client-boutique-belge"
   },
   {
     "n": 5,
-    "date": "2026-12-01",
+    "date": "2026-11-26",
     "titre": "Sylius a-t-il un agent IA ?",
     "texte": "Question qu'on me pose de plus en plus : « Sylius a-t-il un agent IA intégré ? »\n\nRéponse honnête : Sylius publie trois briques officielles.\nUn serveur MCP pour la boutique (version 0.3), un serveur MCP pour l'administration (version 0.2), et un assistant Ask AI dans l'administration (version 0.1, présenté comme une preuve de concept, sous licence BUSL).\n\nElles demandent Sylius 2.1 ou plus (2.2 pour Ask AI).\nElles sont prometteuses, mais jeunes. Et aucune ne lit vos conditions de vente ni votre boîte de contact.\n\nPour un service client qui applique vos règles, il faut construire au-dessus.\nJe m'appuie sur ces briques quand elles servent, et je n'écris que ce qui manque.\n\nVous avez déjà testé l'une de ces briques sur votre boutique ?\n\n#Sylius #Symfony #IA #MCP",
     "commentaire": "https://creation-site-pro.fr/agent-ia-sylius"
   },
   {
     "n": 6,
-    "date": "2026-12-03",
+    "date": "2026-12-01",
     "titre": "Les 8 couches",
     "texte": "Un agent IA fiable, ce n'est pas un bon prompt.\nC'est 8 couches.\n\nLe prompt système fixe son rôle, son ton, ses limites.\nVos documents lui donnent ses réponses : il s'appuie sur vos conditions de vente, et cite la source.\nLes outils décident de ce qu'il peut lire et de ce qu'il peut préparer. Rien de plus.\nLes accès par rôle font qu'il ne voit que le dossier en cours.\n\nLes garde-fous mettent les interdits dans le code, pas dans une consigne.\nLe cache évite de payer deux fois la même réponse.\nLe routeur de modèles confie le tri au petit modèle et le raisonnement au grand.\nEnfin, les tests et les traces : des cas réels rejoués avant chaque changement, chaque passage tracé.\n\nQuand une couche manque, c'est là que l'agent dérape.\n\nD'après vous, laquelle manque le plus souvent ?\n\n#IA #agentIA #ecommerce",
     "commentaire": "https://creation-site-pro.fr/blog/agent-ia-entreprise-8-couches-fiable"
   },
   {
     "n": 7,
-    "date": "2026-12-08",
+    "date": "2026-12-03",
     "titre": "Sylius 1.x",
     "texte": "Les briques IA officielles de Sylius n'existent que pour Sylius 2.1 et plus.\nRien pour Sylius 1.x.\n\nEt les correctifs de sécurité de Sylius 1.14 s'arrêtent le 31 décembre 2026.\n\nUn agent sur mesure peut lire l'API d'une boutique 1.x.\nMais dans la plupart des cas, je conseille de planifier la migration en même temps : on ne construit pas une extension sur une maison dont le bail se termine.\n\nJ'ai créé Sylius Upgrade Analyzer, un outil open source qui mesure le travail de migration. C'est souvent le premier pas.\n\nVotre boutique tourne sur quelle version de Sylius ?\n\n#Sylius #Sylius2 #migration",
     "commentaire": "https://creation-site-pro.fr/blog/agent-ia-sylius-1-ou-migrer-sylius-2"
   },
   {
     "n": 8,
-    "date": "2026-12-10",
+    "date": "2026-12-08",
     "titre": "SAV bilingue FR/NL",
     "texte": "Une boutique belge reçoit des messages en français et en néerlandais.\nSouvent, la personne qui répond est à l'aise dans une seule des deux langues.\n\nUn agent IA peut préparer la réponse dans la langue du client, à partir des mêmes règles écrites,\net la personne qui valide relit dans sa langue à elle.\n\nLe client reçoit une réponse juste, dans sa langue. Le commerçant garde la main.\n\nChez vous, qui répond aux messages en néerlandais ?\n\n#Belgique #ecommerce #serviceclient",
     "commentaire": "https://creation-site-pro.be/blog/agent-ia-sav-bilingue-francais-neerlandais"
   },
   {
     "n": 9,
-    "date": "2026-12-15",
+    "date": "2026-12-10",
     "titre": "Ce que l'agent ne fait jamais seul",
     "texte": "« Et s'il rembourse un client par erreur ? »\n\nC'est la bonne question. Ma réponse : il ne peut pas.\n\nDans les agents que je construis, tout ce qui engage de l'argent ou un envoi attend une validation humaine.\nRembourser, envoyer un mail, accorder un geste commercial, changer ses propres règles :\nl'agent n'a pas d'outil pour le faire. Ce n'est pas une consigne qu'il pourrait oublier, c'est une porte qui n'existe pas.\n\nIl prépare. Vous décidez. Et vous fixez vous-même le seuil à partir duquel il peut agir seul, si un jour vous le voulez.\n\nEt vous, jusqu'à quel montant laisseriez-vous une IA agir seule ?\n\n#IA #ecommerce #sécurité",
     "commentaire": "https://creation-site-pro.fr/blog/agent-ia-autonome-ou-validation-humaine"
   },
   {
     "n": 10,
-    "date": "2026-12-17",
+    "date": "2026-12-15",
     "titre": "« Où en est ma commande ? »",
     "texte": "C'est souvent la question la plus fréquente d'une boutique en ligne.\nEt la réponse est déjà dans Sylius : la commande, l'expédition, le numéro de suivi.\n\nUn agent IA peut retrouver le client par son adresse e-mail, lire sa commande et son expédition, puis préparer une réponse avec le bon lien de suivi.\n\nVous validez en un clic au lieu d'ouvrir trois onglets.\nC'est rarement spectaculaire. C'est souvent la tâche qui fait gagner le plus de temps.\n\nCombien de fois par jour recevez-vous cette question ?\n\n#Sylius #serviceclient #ecommerce",
     "commentaire": "https://creation-site-pro.fr/blog/agent-ia-sylius-ou-en-est-ma-commande"
   },
   {
     "n": 11,
-    "date": "2026-12-22",
+    "date": "2026-12-17",
     "titre": "Le coût sous contrôle",
     "texte": "« Une IA, ça coûte combien par mois ? »\n\nÇa dépend surtout de la façon dont elle est construite.\n\nTrois réglages font la différence. Le tri sans IA, d'abord : les notifications et les remerciements ne passent jamais par le modèle. Le cache, ensuite : une réponse déjà calculée n'est pas payée deux fois. Le routeur de modèles, enfin : un petit modèle pour trier, un grand seulement quand il faut raisonner.\n\nAjoutez un plafond de dépense par jour qui déclenche une alerte, et la facture ne vous surprend plus.\nLa consommation est payée directement au fournisseur, sur votre compte : vous voyez tout.\n\nCe qui vous freine le plus, c'est le coût ou la peur de ne pas le maîtriser ?\n\n#IA #ecommerce #budget",
     "commentaire": "https://creation-site-pro.fr/blog/cout-agent-ia-e-commerce-cache-routeur-modeles"
